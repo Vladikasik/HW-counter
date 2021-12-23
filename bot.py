@@ -1,7 +1,7 @@
 import django
 import os
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ClothesShop.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Helper.settings")
 django.setup()
 
 import telebot
